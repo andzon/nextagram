@@ -32,6 +32,7 @@ const SignUpForm = ({ toggleModal }) => {
 
     const { email, username, password, verifyPassword } = userInfo
 
+    
     const displayHelperMessage = () => {
         if (validUser) {
             if (validUser === 'valid') {
@@ -134,7 +135,7 @@ const SignUpForm = ({ toggleModal }) => {
                 value={loading ? 'Signing Up...' : 'Sign Up!'}
             />
 
-        
+
         </form>
 
 
