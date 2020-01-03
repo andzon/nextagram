@@ -36,3 +36,64 @@
     transform: rotate(360deg);
   }
 }
+
+ul {
+  list-style-type: none;
+
+}
+
+.logo {
+  padding-left: 20px;
+  padding-top: 20px;
+
+}
+
+.userImages2 {
+padding: 30px;
+margin-left: 50px;
+
+}
+
+.fixImages {
+  display: flex;
+
+
+}
+
+.line {
+border-right: 6px solid grey;
+margin-left: 50px;
+}
+
+.content {
+  margin-left: 30px;
+
+}
+
+.Login {
+  float: right;
+
+}
+
+
+.WholeNav {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.ProfileImage {
+  border-radius: 50%;
+
+
+}
+
+.ProfileInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
